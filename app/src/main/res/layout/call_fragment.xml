@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragmentsColor"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/call_top_padding">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/fire_button"
+            android:layout_width="@dimen/call_buttons_width_height"
+            android:layout_height="@dimen/call_buttons_width_height"
+            android:background="@drawable/firebutton"
+            android:onClick="fireClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/fire_text"
+            android:textSize="@dimen/call_button_textsize"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/calllayout_margins"
+        android:layout_marginTop="@dimen/calllayout_margins"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/police_button"
+                android:layout_width="@dimen/call_buttons_width_height"
+                android:layout_height="@dimen/call_buttons_width_height"
+                android:background="@drawable/policebutton"
+                android:onClick="poliecClick" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/police_text"
+                android:textSize="@dimen/call_button_textsize"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/call_button_specialmargin"
+            android:layout_marginRight="@dimen/calllayout_margins"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/call_button"
+                android:layout_width="@dimen/call_buttons_width_height"
+                android:layout_height="@dimen/call_buttons_width_height"
+                android:background="@drawable/call_button_background"
+                android:onClick="callClick" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/call_text"
+                android:textSize="@dimen/call_button_textsize"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ambulance_button"
+                android:layout_width="@dimen/call_buttons_width_height"
+                android:layout_height="@dimen/call_buttons_width_height"
+                android:background="@drawable/ambulancebutton"
+                android:onClick="ambulanceClick" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ambulance_text"
+                android:gravity="center"
+                android:textSize="@dimen/call_button_textsize"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/poison_center_spceial_margin"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/poison_button"
+                android:layout_width="@dimen/call_buttons_width_height"
+                android:layout_height="@dimen/call_buttons_width_height"
+                android:layout_gravity="center"
+                android:background="@drawable/poisonbutton"
+                android:onClick="poisonClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/poisoncenter_text"
+                android:textSize="@dimen/call_button_textsize"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/call_button_specialmargin">
+
+            <Button
+                android:id="@+id/helpline_button"
+                android:layout_width="@dimen/call_buttons_width_height"
+                android:layout_height="@dimen/call_buttons_width_height"
+                android:layout_gravity="center"
+                android:background="@drawable/helpliebutton"
+                android:onClick="helplineClick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/helpline_text"
+                android:textSize="@dimen/call_button_textsize"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

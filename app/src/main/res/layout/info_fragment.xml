@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/fragmentsColor">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/info_buttons_height"
+            android:layout_marginBottom="@dimen/info_buttons_margins"
+            android:layout_marginTop="@dimen/info_buttons_margins"
+            android:adjustViewBounds="true"
+            android:drawableLeft="@drawable/fireman"
+            android:onClick="startFireInfoActivity"
+            android:padding="@dimen/info_buttons_margins"
+            android:scaleType="fitStart"
+            android:text="@string/info_dire_text_button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/info_buttons_height"
+            android:layout_marginBottom="@dimen/info_buttons_margins"
+            android:layout_marginTop="@dimen/info_buttons_margins"
+            android:drawableLeft="@drawable/police_logo"
+            android:onClick="startPoliceInfoActivity"
+            android:padding="@dimen/info_buttons_margins"
+            android:scaleType="fitStart"
+            android:text="@string/police_info_text_button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/info_buttons_height"
+            android:layout_marginBottom="@dimen/info_buttons_margins"
+            android:layout_marginTop="@dimen/info_buttons_margins"
+            android:drawableLeft="@drawable/ambulance"
+            android:onClick="startAmbulanceInfoActivity"
+            android:padding="@dimen/info_buttons_margins"
+            android:scaleType="fitStart"
+            android:text="@string/ambulance_info_text_button" />
+
+        <Button
+            android:onClick="startPoisonInfoActivity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/info_buttons_height"
+            android:layout_marginBottom="@dimen/info_buttons_margins"
+            android:layout_marginTop="@dimen/info_buttons_margins"
+            android:drawableLeft="@drawable/poison"
+            android:padding="@dimen/info_buttons_margins"
+            android:scaleType="fitStart"
+            android:text="@string/poison_info_text_button" />
+
+        <Button
+            android:onClick="startHelplineInfoActivity"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/info_buttons_height"
+            android:layout_marginBottom="@dimen/info_buttons_margins"
+            android:layout_marginTop="@dimen/info_buttons_margins"
+            android:drawableLeft="@drawable/helpline"
+            android:padding="@dimen/info_buttons_margins"
+            android:scaleType="fitStart"
+            android:text="@string/helpline_info_text_button" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="@dimen/info_bot_buttons_height"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="startStatisticsActivity"
+        android:text="@string/statistics_text_button" />
+
+    <Button
+        android:layout_width="@dimen/info_bot_buttons_height"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="sendEmail"
+        android:text="@string/feedback_button_text" />
+</RelativeLayout>

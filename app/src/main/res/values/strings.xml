@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">JamProject</string>
+    <string name="fire_text">Fire</string>
+    <string name="police_text">Police</string>
+    <string name="call_text">CALL</string>
+    <string name="ambulance_text">Ambulance</string>
+    <string name="poisoncenter_text">Poison center</string>
+    <string name="helpline_text">Helpline</string>
+    <string name="info_dire_text_button">About fire department</string>
+    <string name="police_info_text_button">About police department</string>
+    <string name="ambulance_info_text_button">About ambulance</string>
+    <string name="poison_info_text_button">About poison center</string>
+    <string name="helpline_info_text_button">About helpline service</string>
+    <string name="statistics_text_button">Statistics</string>
+    <string name="feedback_button_text">Feedback</string>
+    <string name="statistics_text">STATISTICS</string>
+    <string name="none_text">none</string>
+    <string name="fire_calls">Fire department calls:</string>
+    <string name="police_calls">Police department calls:</string>
+    <string name="ambulance_calls">Ambulance calls:</string>
+    <string name="poison_calls">Poison center calls:</string>
+    <string name="helpline_calls">Helpline calls:</string>
+    <string name="fire_full_description">For getting effective help from firefighters you have to
+        follow a certain order of the information to report. Before you dial the phone of the fire
+        service, it is better to think in advance what information you will report. THE ORDER OF
+        INFORMATION TO REPORT: - The exact address of the fire. It should be called the first, as
+        if the connection is interrupted suddenly, the fire service will already know where their
+        help is needed. - A place where fire is detected: apartment, cottage, garage, etc. - An
+        object that is illuminated: furniture, TV, car. - Specific information: the entrance number,
+        number of floors in the building, a threat to life, etc. - Caller\s name, phone number.
+        Upon arrival, the fire department will be looking for the one who phoned. This is especially
+        important when you are unable to leave the building. Talk easily, accurately and legibly.
+        Do not worry - after you reported the fire address, firefighters have already left, and the
+        additional information is submitted to it on the radio. According to the rules, it is
+        necessary to wait until manager finishes the conversation, and then hang up.</string>
+    <string name="police_depart">POLICE DEPARTMENT</string>
+
+    <string name="police_description">A police force is a constituted body of persons empowered by
+        the state to enforce the law, protect property, and limit civil disorder. Their powers
+        include the legitimized use of force. The term is most commonly associated with police
+        services of a sovereign state that are authorized to exercise the police power of that
+        state within a defined legal or territorial area of responsibility. Police forces are often
+        defined as being separate from military or other organizations involved in the defense of
+        the state against foreign aggressors; however, gendarmerie are military units charged with
+        civil policing.
+First attested in English in the early 15th century, initially
+        in a range of senses encompassing \(public) policy; state; public order\, the word police
+        comes from Middle French police (\public order, administration, government\), in turn from
+        Latin politia, which is the Latinisation of the Greek πολιτεία (politeia), \"citizenship,
+        administration, civil polity\". This is derived from πόλις (polis), \"city\".</string>
+<string name="ambulance_description">As a rule, the connection to the operator of "03" occurs within
+    10-15 second. Wait for an operator and provide the following information:
+    - patient sex
+    - approximate age
+    - what has happened
+    - when it has happened
+    - any manifestation that made you to call ambulance
+    - address where the patient is (in the case of finding the patient in the street, you must
+    provide a clear direction; to specify the apartment in case of call: the nearest place of
+    arrival to the house, the entrance number, floor, code lock)
+    - name calling
+    Clear and complete answers on these questions will help the ambulance to arrive as soon as
+    possible.
+    Once you call "03" manager will decide which team to send to you.</string>
+    <string name="ambulance">AMBULANCE</string>
+    <string name="poison_description">Poisoning is injury or death due to swallowing, inhaling,
+        touching or injecting various drugs, chemicals, venoms or gases. Many substances — such as
+        drugs and carbon monoxide — are poisonous only in higher concentrations or dosages. And
+        others — such as cleaners — are dangerous only if ingested. Children are particularly
+        sensitive to even small amounts of certain drugs and chemicals.
+
+How you treat someone who may have been poisoned depends on:
+•The persons symptoms
+•The persons age
+•Whether you know the type and amount of the substance that caused poisoning
+
+If you are concerned about possible poisoning, call Poison Help at 800-222-1222 in the United States
+        or your regional poison control center. Poison control centers are excellent resources for
+        poisoning information and, in many situations, may advise that in-home observation is all
+        thats needed.
+When to suspect poisoning
+Poisoning signs and symptoms can mimic other conditions, such as seizure, alcohol intoxication,
+        stroke and insulin reaction. Signs and symptoms of poisoning may include:
+•Burns or redness around the mouth and lips
+•Breath that smells like chemicals, such as gasoline or paint thinner
+•Vomiting
+•Difficulty breathing
+•Drowsiness
+•Confusion or other altered mental status
+
+If you suspect poisoning, be alert for clues such as empty pill bottles or packages, scattered
+        pills, and burns, stains and odors on the person or nearby objects. With a child, consider
+        the possibility that he or she may have applied medicated patches or swallowed a button battery.
+</string>
+    <string name="poison">POISON CENTER</string>
+    <string name="helpline_description">A crisis hotline is a phone number people can call to get
+        immediate emergency telephone counseling, usually by trained volunteers.
+ Initially set up to help those contemplating suicide, many have expanded their mandate to deal more
+        generally with emotional crises. Similar hotlines operate to help people in other
+        circumstances, including rape victims, bullying victims, runaway children, human
+        trafficking victims, and people who identify as LGBT or intersex.
+Also helpline is common service used by law enforcement authorities: they are used to allow
+        communication about the impending or actual crime, terrorist attack, etc..
+Helpline Counselling is based on several basic principles:
+
+- The anonymity of the caller and consultant: both of them are not obliged to call themselves,
+        call their personal data; counselor often acts under the nickname and the subscriber can
+        be called by any name or do not report it, not fixed phone number - it increases the
+        safety of the interlocutors;
+- Confidentiality: the content of conversations can not be recorded or transmitted to a third
+        party; It can only gather statistical information about the call: the category of the
+        problem, the subscribers age (if he told about it), his social position;
+- Tolerance: the views expressed by the subscriber can not be condemned or criticized; This
+        allows to create a comfortable environment for conversation and to work effectively with the problem;
+- Conversation control: user can interrupt the conversation at any time, so can the consultant (under certain conditions).</string>
+    <string name="helpline">HELPLINE</string>
+    <string name="fire">FIRE DEPARTMENT</string>
+    <string name="email">tert.max@gmail.com</string>
+    <string name="feedback">Feedback</string>
+    <string name="write_your_feedback">Write your feedback</string>
+    <string name="send_email">Send Email</string>
+    <string name="firsttab_text">Emergency call</string>
+    <string name="secondtab_text">Additional</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="numbers_array">
+        <item name="101">101</item>
+        <item name="102">102</item>
+        <item name="103">103</item>
+        <item name="0444258828">0444258828</item>
+        <item name="7459040">745904</item>
+    </string-array>
+</resources>

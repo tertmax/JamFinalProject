@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragmentsColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/stat_mainpadding"
+        android:text="@string/statistics_text"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/stat_textsize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/view_margins"
+        android:layout_marginRight="@dimen/view_margins"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/stat_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fire_calls"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/stat_teztsize2" />
+
+        <TextView
+            android:id="@+id/fire_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/none_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/stat_teztsize2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/view_margins"
+        android:layout_marginRight="@dimen/view_margins"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/stat_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/police_calls"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/stat_teztsize2" />
+
+        <TextView
+            android:id="@+id/police_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/none_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/stat_teztsize2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/view_margins"
+        android:layout_marginRight="@dimen/view_margins"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/stat_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ambulance_calls"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/stat_teztsize2" />
+
+        <TextView
+            android:id="@+id/ambulance_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/none_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/stat_teztsize2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/view_margins"
+        android:layout_marginRight="@dimen/view_margins"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/stat_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/poison_calls"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/stat_teztsize2" />
+
+        <TextView
+            android:id="@+id/poison_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/none_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/stat_teztsize2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/view_margins"
+        android:layout_marginRight="@dimen/view_margins"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/stat_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/helpline_calls"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/stat_teztsize2" />
+
+        <TextView
+            android:id="@+id/helpline_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/none_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/stat_teztsize2" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/view_margins"
+        android:layout_marginRight="@dimen/view_margins"
+        android:background="@android:color/darker_gray" />
+</LinearLayout>

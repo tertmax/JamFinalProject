@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="call_buttons_width_height">100dp</dimen>
+    <dimen name="call_button_textsize">19sp</dimen>
+    <dimen name="calllayout_margins">20dp</dimen>
+    <dimen name="call_top_padding">30dp</dimen>
+    <dimen name="call_button_specialmargin">15dp</dimen>
+    <dimen name="poison_center_spceial_margin">40dp</dimen>
+    <dimen name="info_buttons_height">60dp</dimen>
+    <dimen name="info_buttons_margins">5dp</dimen>
+    <dimen name="info_bot_buttons_height">125dp</dimen>
+    <dimen name="stat_padding">10dp</dimen>
+    <dimen name="stat_textsize">30sp</dimen>
+    <dimen name="stat_mainpadding">20dp</dimen>
+    <dimen name="stat_teztsize2">20sp</dimen>
+    <dimen name="view_margins">20dp</dimen>
+    <dimen name="customrow_paddingright">10dp</dimen>
+    <dimen name="description_textsize">17sp</dimen>
+    <dimen name="description_textpadding">10dp</dimen>
+    <dimen name="description_titletextsize">30sp</dimen>
+    <dimen name="mainpaddingleftright">1dp</dimen>
+</resources>
